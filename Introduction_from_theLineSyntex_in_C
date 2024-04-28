@@ -1,0 +1,164 @@
+Link of the code =>   https://onlinegdb.com/B6lKyP9Vp
+
+
+#include<stdio.h>
+#include<graphics.h>
+#include<conio.h>  
+void main(){
+    int gd =DETECT,gm,i;
+    initgraph(&gd,&gm,"c:\\tc\\bgi");
+    
+       setcolor(4);
+     {
+  for(i=0;i<=190;i++){  
+      circle(1,400,i);
+  }
+   for(i=190;i>=0;i--){  
+      circle(640,400,i);
+  }
+  delay(2);
+ }
+ setcolor(3);
+   line(112,35,112,50);delay(150);
+   line(112,35,120,50);delay(150);
+   line(120,35,120,50);delay(150); // N
+   
+   line(130,35,125,50);delay(150);
+   line(130,35,135,50);delay(150); // A
+   line(128,45,133,45);delay(150);
+  line(140,35,140,50);delay(150);
+  line(140,35,146,45);delay(150);
+  line(152,35,146,45);ddelay(150);
+  line(152,35,152,50);delay(150); // ME
+  line(157,35,157,50);delay(150);
+  line(157,35,163,35);delay(150);
+  line(157,43,163,43);delay(150);
+  line(157,50,163,50);delay(150);
+  
+  //line(210,35,210,100); // a line is given after a complete a project it will be remove
+  line(220,35,215,50);delay(150); // on work here
+  line(220,35,225,50);delay(150);
+  line(218,45,223,45);delay(145);
+  line(230,35,230,50);delay(150);
+  line(230,35,240,50);delay(150);
+  line(240,35,240,50);delay(150);
+  line(245,35,245,50);delay(150);
+  line(253,35,245,43);delay(150);
+  line(245,42,253,50);delay(150);
+  line(258,35,258,50);delay(150);
+  line(268,35,268,50);delay(150);
+  line(263,35,273,35); delay(150);// ANKIT is completed
+  line(285,35,285,50);delay(150);
+  line(285,35,290,42);delay(150);
+  line(295,35,290,42);delay(150);
+  line(295,35,295,50);delay(150);
+  line(300,35,300,50);delay(150); // MI finished
+  line(305,35,310,35);delay(150);
+  line(305,35,305,42.5);delay(150);
+  line(305,42.5,310,42.5);delay(150);
+  line(310,42.5,310,50);delay(150);
+  line(305,50,310,50);delay(150);
+  line(315,35,315,50);delay(150);
+  line(315,42.5,322,42.5);delay(150);
+  line(322,35,322,50);delay(150); // H completed
+  line(327,35,327,50);delay(150);
+  line(327,35,335,35);delay(150);
+  line(335,35,335,42.5);delay(150);
+  line(327,42.5,335,42.5);delay(150);
+  line(327,42.5,335,50);delay(150);
+  line(345,35,340,50);delay(150);
+  line(345,35,350,50);delay(150);
+  line(343,45,348,45);delay(150);
+  // NAME ANKIT MISHRA is completed
+  setcolor(2);
+  outtextxy(400,35,"NAME : ANKIT MISHRA");delay(150);
+   setcolor(3);
+  line(112,60,112,75);delay(150);
+  line(112,60,120,60);delay(150);
+  line(112,75,120,75);delay(150);
+  line(125,60,125,75);delay(150); // CLA
+  line(125,75,133,75);delay(150);
+  line(143,60,138,75);delay(150);
+  line(143,60,148,75);delay(150);
+   line(141,70,146,70);delay(150);
+   line(153,60,161,60);delay(150);
+   line(153,60,153,68);delay(150);
+   line(153,68,161,68);delay(150);  // S
+   line(161,68,161,75);delay(150);
+   line(153,75,161,75);delay(150);
+   
+   line(166,60,174,60);delay(150);
+   line(166,60,166,68);delay(150);
+   line(166,68,174,68); delay(150);// S
+   line(174,68,174,75);delay(150);
+   line(166,75,174,75);delay(150);
+   
+   // MCA written from here
+   line(215,60,215,75);delay(150);
+   line(215,60,221,68);delay(150);
+   line(221,68,228,60);delay(150);
+   line(228,60,228,75);delay(150);
+   line(233,60,233,75);delay(150);
+   line(233,60,240,60);delay(150);
+   line(233,75,240,75);delay(150);
+   line(250,60,245,75);delay(150);
+   line(250,60,255,75);delay(150);
+   line(248,70,253,70);delay(150);
+   // MCA is completed.
+   setcolor(2);
+   outtextxy(400,60,"CLASS : MCA");delay(150);
+    setcolor(3);
+   line(112,85,112,100);delay(150);
+   line(112,85,120,85);delay(150);
+   line(112,100,120,100);delay(150); //CO
+   circle(132,92.5,8);delay(150);
+   
+   line(145,85,145,100);delay(150);
+   line(145,100,151,100); delay(150);// L
+   
+   line(158,85,158,100);delay(150);
+   line(158,100,164,100);delay(150); // L
+   
+   line(169,85,169,100);delay(150);
+   line(169,85,175,85);delay(150);  // E
+   line(169,93,175,93);delay(150);
+   line(169,100,175,100);delay(150);
+   
+   line(180,85,180,100);delay(150);
+   line(180,85,188,85);delay(150);
+   line(180,100,188,100);delay(150); // G
+   line(188,93,188,100);delay(150);
+   line(183,93,188,93);delay(150);
+   
+   line(193,85,193,100);  delay(150);
+   line(193,85,199,85); delay(150);  // E
+   line(193,93,199,93);delay(150);
+   line(193,100,199,100);delay(150);
+   
+   // KIET is written from here 
+   line(215,85,215,100);delay(150);
+   line(223,85,215,93);delay(150);
+   line(215,92,223,100);delay(150);
+   line(228,85,228,100);delay(150);
+   line(234,85,234,100);delay(150);
+   line(234,85,240,85);delay(150);
+   line(234,100,240,100);delay(150);
+   line(234,92.5,240,92.5);delay(150);
+   line(245,85,255,85);delay(150);
+   line(250,85,250,100);delay(150);
+   setcolor(2);
+   outtextxy(340,85,"COLLEGE : KIET GROUP OF INSTTUTIONS");delay(150);
+   
+  
+    getch();
+    closegraph;
+}
+
+
+
+
+
+
+
+
+
